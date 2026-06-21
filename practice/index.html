@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let name="siva";
+        console.log(name);
+        let number = 67.9;
+        console.log(number);
+        let bool = true;
+        console.log(bool);
+        var n = 67;
+        var n = "sivar";
+        console.log(n);
+        document.writeln(n);
+        //error cant overide let or const but overide on var
+        let arr = [1,2,3,4,5];
+        for(let i=0;i<arr.length;i++)
+        {
+        document.write(arr[i]*2+" ");
+        }
+        function add(a,b)
+        {
+            return a+b;
+        }
+        console.log(add(4,4));
+        let a = () => console.log("HI");
+        let b = (a,b) => a+b;
+        console.log(b(5,5));
+        let data1 = {
+            name :"siva",
+            age : 28,
+            address:{
+                vill : "xyz",
+                city : "HYD",
+                pin : 600015,
+            }
+        }
+
+    </script>
+</body>
+</html>
